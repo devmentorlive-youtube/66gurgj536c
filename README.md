@@ -10,6 +10,6 @@ This is the beginning of a series in which I hope to answer that question. This 
 
 ## DAY ONE
 
-A Data Structure you probably haven't seen before, but one that is incredibly useful. The Window pattern.
+A Data Structure you probably haven't seen before, but one that is incredibly useful, it's an auto dumping queue with a set capacity
 
-It's a stack where you can shove things in, but when the stack hit's it's size limit, it will start removing the oldest values as new values are added in to normalize to the size argument.
+It's a fifo stack where you can shove things in, but when the stack hit's it's size limit, it will start removing the oldest values as new values are added in to normalize to the size argument
